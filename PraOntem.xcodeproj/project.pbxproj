@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */; };
-		A2EF1DA72A743F4F00B059CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DA62A743F4F00B059CD /* ContentView.swift */; };
 		A2EF1DA92A743F5000B059CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DA82A743F5000B059CD /* Assets.xcassets */; };
 		A2EF1DAC2A743F5000B059CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DAB2A743F5000B059CD /* Preview Assets.xcassets */; };
+		A2EF1DB42A74400B00B059CD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DB32A74400B00B059CD /* ListView.swift */; };
+		A2EF1DB62A7442A900B059CD /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DB52A7442A900B059CD /* ListRowView.swift */; };
+		A2EF1DB82A7445F600B059CD /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DB72A7445F600B059CD /* AddView.swift */; };
+		A2EF1DBB2A744C1200B059CD /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DBA2A744C1200B059CD /* ItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2EF1DA12A743F4F00B059CD /* PraOntem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraOntem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraOntemApp.swift; sourceTree = "<group>"; };
-		A2EF1DA62A743F4F00B059CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2EF1DA82A743F5000B059CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2EF1DAB2A743F5000B059CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2EF1DB32A74400B00B059CD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A2EF1DB52A7442A900B059CD /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		A2EF1DB72A7445F600B059CD /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		A2EF1DBA2A744C1200B059CD /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */,
-				A2EF1DA62A743F4F00B059CD /* ContentView.swift */,
+				A2EF1DB92A744BF500B059CD /* Models */,
+				A2EF1DB22A743FE400B059CD /* Views */,
 				A2EF1DA82A743F5000B059CD /* Assets.xcassets */,
 				A2EF1DAA2A743F5000B059CD /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				A2EF1DAB2A743F5000B059CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2EF1DB22A743FE400B059CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF1DB32A74400B00B059CD /* ListView.swift */,
+				A2EF1DB52A7442A900B059CD /* ListRowView.swift */,
+				A2EF1DB72A7445F600B059CD /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2EF1DB92A744BF500B059CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF1DBA2A744C1200B059CD /* ItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2EF1DA72A743F4F00B059CD /* ContentView.swift in Sources */,
+				A2EF1DBB2A744C1200B059CD /* ItemModel.swift in Sources */,
+				A2EF1DB82A7445F600B059CD /* AddView.swift in Sources */,
 				A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */,
+				A2EF1DB42A74400B00B059CD /* ListView.swift in Sources */,
+				A2EF1DB62A7442A900B059CD /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

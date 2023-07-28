@@ -7,11 +7,24 @@
 
 import SwiftUI
 
+/*
+ 
+ MVVM Architecture
+ 
+ Model - Data point
+ View - UI
+ ViewModel - Manages Models for Views
+ 
+ 
+ */
+
 @main
 struct PraOntemApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ListView()
+            }
         }
     }
 }
