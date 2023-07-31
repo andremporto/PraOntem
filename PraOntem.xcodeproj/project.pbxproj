@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A231CEDF2A78366C00758715 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231CEDE2A78366C00758715 /* ListViewModel.swift */; };
 		A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */; };
 		A2EF1DA92A743F5000B059CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DA82A743F5000B059CD /* Assets.xcassets */; };
 		A2EF1DAC2A743F5000B059CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DAB2A743F5000B059CD /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A231CEDE2A78366C00758715 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		A2EF1DA12A743F4F00B059CD /* PraOntem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraOntem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraOntemApp.swift; sourceTree = "<group>"; };
 		A2EF1DA82A743F5000B059CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A231CEDD2A78363B00758715 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A231CEDE2A78366C00758715 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		A2EF1D982A743F4F00B059CD = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 			children = (
 				A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */,
 				A2EF1DB92A744BF500B059CD /* Models */,
+				A231CEDD2A78363B00758715 /* ViewModels */,
 				A2EF1DB22A743FE400B059CD /* Views */,
 				A2EF1DA82A743F5000B059CD /* Assets.xcassets */,
 				A2EF1DAA2A743F5000B059CD /* Preview Content */,
@@ -164,6 +175,7 @@
 			files = (
 				A2EF1DBB2A744C1200B059CD /* ItemModel.swift in Sources */,
 				A2EF1DB82A7445F600B059CD /* AddView.swift in Sources */,
+				A231CEDF2A78366C00758715 /* ListViewModel.swift in Sources */,
 				A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */,
 				A2EF1DB42A74400B00B059CD /* ListView.swift in Sources */,
 				A2EF1DB62A7442A900B059CD /* ListRowView.swift in Sources */,
