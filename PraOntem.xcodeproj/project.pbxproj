@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A231CEDF2A78366C00758715 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A231CEDE2A78366C00758715 /* ListViewModel.swift */; };
+		A260ACD12A792711006FA48B /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260ACD02A792711006FA48B /* NoItemsView.swift */; };
+		A260ACD32A7943B1006FA48B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A260ACD22A7943B1006FA48B /* LaunchScreen.storyboard */; };
 		A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */; };
 		A2EF1DA92A743F5000B059CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DA82A743F5000B059CD /* Assets.xcassets */; };
 		A2EF1DAC2A743F5000B059CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EF1DAB2A743F5000B059CD /* Preview Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		A231CEDE2A78366C00758715 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A260ACD02A792711006FA48B /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		A260ACD22A7943B1006FA48B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2EF1DA12A743F4F00B059CD /* PraOntem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraOntem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EF1DA42A743F4F00B059CD /* PraOntemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PraOntemApp.swift; sourceTree = "<group>"; };
 		A2EF1DA82A743F5000B059CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				A2EF1DB32A74400B00B059CD /* ListView.swift */,
 				A2EF1DB52A7442A900B059CD /* ListRowView.swift */,
 				A2EF1DB72A7445F600B059CD /* AddView.swift */,
+				A260ACD02A792711006FA48B /* NoItemsView.swift */,
+				A260ACD22A7943B1006FA48B /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A260ACD32A7943B1006FA48B /* LaunchScreen.storyboard in Resources */,
 				A2EF1DAC2A743F5000B059CD /* Preview Assets.xcassets in Resources */,
 				A2EF1DA92A743F5000B059CD /* Assets.xcassets in Resources */,
 			);
@@ -178,6 +185,7 @@
 				A231CEDF2A78366C00758715 /* ListViewModel.swift in Sources */,
 				A2EF1DA52A743F4F00B059CD /* PraOntemApp.swift in Sources */,
 				A2EF1DB42A74400B00B059CD /* ListView.swift in Sources */,
+				A260ACD12A792711006FA48B /* NoItemsView.swift in Sources */,
 				A2EF1DB62A7442A900B059CD /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,9 +318,11 @@
 				DEVELOPMENT_TEAM = 2Q448G8AH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pra Ontem";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,9 +349,11 @@
 				DEVELOPMENT_TEAM = 2Q448G8AH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pra Ontem";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
