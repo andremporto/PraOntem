@@ -1,21 +1,20 @@
 # Pra Ontem
 
-iOS App to track daily expenses.
+My personal ToDo iOS App.
 
-## Our Goal
+## My Goal
 
-To build a simple iOS app that can track my daily expenses and separates personal costs from business costs in order to reduce the time spent wondering where I spent my money.
+To build a simple and beautiful ToDo iOS app that I can put all my forgotten daily things.
 
-## What I learn
+## What did I do:
 
-- Present and dismiss a second screen of data.
-- Delete rows from a list.
-- Error handling in Swift.
+- MVVM Project.
+- Animations
+- JSON data handling.
+- Code error handling.
 - Save and load user data.
 - Basic debugging.
 
 …and more.
 
-#
-
-![Torrei Banner](./Torrei/Documentation/torreiApp.png)
+![Pra Ontem Banner](./PraOntem/Documentation/thumbIosIphoneREADME.webp)
