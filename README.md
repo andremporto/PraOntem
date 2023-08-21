@@ -1,6 +1,4 @@
-# Pra Ontem
-
-My personal ToDo iOS App.
+![PraOntem](https://socialify.git.ci/andremporto/PraOntem/image?description=1&descriptionEditable=My%20personal%20ToDo%20iOS%20App.&forks=1&issues=1&language=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
 ## My Goal
 
